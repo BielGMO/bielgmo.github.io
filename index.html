@@ -42,7 +42,9 @@
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Projetos recentes</h2>
+						<header class="major">
+							<h2>Meu portifólio</h2>
+						</header>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.png" class="image fit thumb"><img src="images/thumbs/01.png" alt="" /></a>
@@ -79,20 +81,25 @@
 
 				<!-- Three -->
 					<section id="three">
-						<h2>Contato</h2>
+						<header class="major">
+							<h2>Contato</h2>
+						</header>
 						<!--Texto de contato aqui-->
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								
+								<form method="post" action="enviar.php">
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nome" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Mensagem" rows="4"></textarea></div>
 									</div>
+									<br>
+									<ul class="actions">
+										<li><input type="submit" name="send" value="Enviar Mensagem" id="submit"/></li>
+									</ul>
 								</form>
-								<ul class="actions">
-									<li><input href="mailto:gabrielmoliveira456@gmail.com" type="submit" value="Enviar Mensagem" /></li>
-								</ul>
+
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
